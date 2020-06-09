@@ -1,7 +1,7 @@
 
 spring:
   datasource:
-    password: 123
+    password: root
     username: root
     url: jdbc:mariadb://127.0.0.1:3306/loja
     driver-class-name: org.mariadb.jdbc.Driver

@@ -3,7 +3,8 @@ spring:
   datasource:
     password: 123
     username: root
-    url: jdbc:mysql://localhost:3306/loja
+    url: jdbc:mariadb://127.0.0.1:3306/loja
+    driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
